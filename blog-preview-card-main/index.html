@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    .body{
+      margin-top: 200px;
+      width: 408px;
+      background-color: aliceblue;
+      padding: 20px;
+      text-align: justify;
+      border-radius: 25px;
+      border-color: black ;
+      border-style:solid ;
+      border-width:2px;
+      box-shadow: 20px 20px;
+      margin-bottom: 300px;
+      font-family: 'Ubuntu';
+    }
+    .box{
+      margin-top: 300px;
+      width: 508px;
+      background-color: rgb(0, 0, 0);
+      border-color: black;
+      height: 586px;
+
+    }
+    button{
+      background-color: rgb(225, 201, 63);
+      font-weight: bolder;
+      padding: 10px;
+      border-radius: 5px;
+      margin-left: 25px;
+      border-color: rgb(225, 201, 63);
+    }
+    h1{
+      color: rgb(225, 201, 63);
+      
+    }
+    img{
+      width: 370px;
+      margin: 20px;
+      border-radius: 10px;
+    }
+    .inpara{
+      width: 335px;
+      color: gray;
+      font-weight: bold;
+      margin-left: 25px;
+      line-height: 1.6;
+    }
+    .hello{
+      width: 40px;
+      display: inline-block;
+      margin: 0px;
+      padding-top:10px;
+    }
+    .inimag{
+      display: inline-block;
+    }
+    .u{
+      display: inline-block;
+    }
+    ul,li{
+      display:inline-block;
+    }
+    ul{
+      height: 50px;
+      padding: 0;
+      margin: 0;
+    }
+    .end{
+      margin-left: 25px;
+    }
+    .string{
+      font-size:30px;
+      color: rgb(225, 201, 63);
+      margin-bottom: 30px;
+      margin-left: 15px;
+      padding: 8px;
+      font-weight: bolder;
+    }
+
+
+  </style>
+</head>
+<body style="background-color: rgb(225, 201, 63)">
+  <center>
+  <div class="body">
+    <div class="picture">
+      <img src="pic.jpg" alt="picture">
+    </div>
+    <div class="header">
+      <button type="button">Learning</button> 
+    </div>
+
+    <div class="Published">
+      <p style="font-weight: bolder; margin-left: 22px; ">Published 21 Dec 2023</p>
+    </div>
+
+    <div class="heading">
+      <a class="string">HTML & CSS foundations</a>
+    </div>
+
+    <div class="para">
+      <p class="inpara">These languages are the backbone of every website, defining structure, content, and presentation</p>
+    </div>
+    <div class="end">
+      <ul>
+        <li>
+          <img class="hello" src="assets/images/image-avatar.webp" alt="pic">
+        </li>
+        <li style="margin-bottom: 10px;"><a style="margin-bottom: 40px; display: inline-block; width:fit-content; font-weight: bolder;">Greg Hooper</a></li>
+      </ul>
+    </div>
+  </div>
+  </center>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Lakshetha S</a>.
+  </div>
+</body>
+</html>
+
+<!--
+<li><img class="hello" src="assets/images/image-avatar.webp" alt="pic"></li>
+<li><a style="margin-bottom: 30px; display: inline-block; padding:10px;">Greg Hooper</a></li>
+-->
